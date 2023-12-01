@@ -3,15 +3,15 @@ from math import cos, exp
 
 col = Turtle()
 color1 = input()
-a0 = int(input())
+A0 = int(input())
 omega = float(input())
 col.pu()
-col.goto(-350, a0)
+col.goto(-350, A0)
 col.color(color1)
 t = 1
 col.pd()
 for k in range(-350, 351, 1):
-    a = a0 * exp(-0.005 * t)
+    a = A0 * exp(-0.005 * t)
     y = a * cos(omega * k)
     col.goto(k, y)
     t += 1
