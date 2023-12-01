@@ -17,3 +17,8 @@ for phi in range(0, 360, 360 // d):
         archimed.pd()
         archimed.dot()
 turtle.done()
+
+# silver
+# 5
+# 0
+# 40

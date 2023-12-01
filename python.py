@@ -1,9 +1,9 @@
-from turtle import *
+import turtle
 
 col1 = input()
 col2 = input()
 size = int(input())
-flower = Turtle()
+flower = turtle.Turtle()
 flower.color(col1)
 flower.pu()
 flower.goto(-60, 100)
@@ -33,7 +33,7 @@ flower.pd()
 for x in range(0, 200):
     y = -0.025 * x ** 2 + 3 * x + 200
     flower.goto(x, y)
-done()
+turtle.done()
 
 # deeppink
 # forestgreen
